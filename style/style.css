@@ -9,6 +9,7 @@
     --cor03: #AD1360;
     --cor04: #1B99AB;
     --cor05: #F7E44D;
+    --background: rgb(44, 21, 4);
     --font01: 'Dancing Script', cursive;
     --font02: 'Caveat', cursive;
 }
@@ -20,7 +21,7 @@
 }
 
 body{
-    background-color: rgb(44, 21, 4);
+    background-color: var(--background);
     color: white;
 }
 

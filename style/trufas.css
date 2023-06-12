@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+:root{
+    --background: rgb(44, 21, 4);
+}
+
 body{
-    background-color: rgb(44, 21, 4);
+    background-color: var(--background);
     color: white;
 }
 
