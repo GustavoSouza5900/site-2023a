@@ -1,14 +1,71 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/*declaração de algumas variáveis*/
+:root{
+    --cor01: #F83597;
+    --cor02: #1BDCF7;
+    --cor03: #AD1360;
+    --cor04: #1B99AB;
+    --cor05: #F7E44D;
+    --background: rgb(44, 21, 4);
+    --font01: 'Dancing Script', cursive;
+    --font02: 'Caveat', cursive;
+}
 
 :root{
     --background: rgb(44, 21, 4);
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--background) var(--cor02);
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--cor02);
+    border-radius: 20px;
+    border: 3px solid var(--background);
+  }
+
 body{
     background-color: var(--background);
     color: white;
+    font-family: var(--font01);
+    height: 50vh;
 }
 
-img{
-    height: 400px;
+.text{
+    background-image: linear-gradient(to right, var(--cor04), var(--cor02));
+    width: 45vw;
+    padding: 5px;
+    border-radius: 5px;
+
+    float: right;
+}
+
+.image{
+    float: left;
+    
+    width: 52vw;
+    height: 98vh;
+    border-radius: 15px;
+}
+
+
+#ninho{
+    background: white url(../imagens/trufa-ninho.jpg) center center;
+    background-size: cover;
 }
