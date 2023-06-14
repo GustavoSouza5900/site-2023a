@@ -32,9 +32,10 @@ body{
 
 .text{
     background-image: linear-gradient(to right, var(--cor04), var(--cor02));
-    width: 45vw;
+    width: 40vw;
     padding: 5px;
     border-radius: 5px;
+    font-size: 4vw;
 
     float: right;
 }
@@ -45,10 +46,36 @@ body{
     width: 52vw;
     height: 98vh;
     border-radius: 15px;
+
 }
 
 
 #ninho{
     background: white url(../imagens/trufa-ninho.jpg) center center;
+    background-size: cover;
+}
+
+#ninho-morango{
+    background: white url(../imagens/trufa-ninho-morango.jpg) center center;
+    background-size: cover;
+}
+
+#brigadeiro{
+    background: white url(../imagens/trufa-brigadeiro.jpg) center center;
+    background-size: cover;
+}
+
+#maracuja{
+    background: white url(../imagens/maracuja2.jpg) center center;
+    background-size: cover;
+}
+
+#limao{
+    background: white url(../imagens/trufa-limao.jpg) center center;
+    background-size: cover;
+}
+
+#defalt{
+    background: white url(../imagens/defalt.jpg) center center;
     background-size: cover;
 }
