@@ -92,6 +92,12 @@ iframe{
     border-radius: 20px;
 }
 
+.alt-cont a:hover {
+    text-decoration: underline;
+    font-size: 4.2vw;
+    transition-duration: 0.5s;
+}
+
 #head-title{
     display: inline-block;
     font-family: var(--font01);
