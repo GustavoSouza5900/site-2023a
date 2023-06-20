@@ -71,17 +71,36 @@ ul{
     #iframe_cont{
         height: 63vh;
     }
+
+    .alt, #card{
+        font-size: 3.3vw;
+    }
+    .alt-cont a:hover{
+        font-size: 3.5vw;
+    }
 }
 
 @media (max-width: 900px){
     #iframe_cont{
         height: 47vh;
     }
+    .alt, #card{
+        font-size: 4vw;
+    }
+    .alt-cont a:hover{
+        font-size: 4.2vw;
+    }
 }
 
 @media (max-width: 632px){
     #iframe_cont{
         height: 37vh;
+    }
+    .alt, #card{
+        font-size: 4.5vw;
+    }
+    .alt-cont a:hover{
+        font-size: 4.7vw;
     }
 }
 
@@ -98,7 +117,6 @@ iframe{
 
 .alt{
     font-family: var(--font02);
-    font-size: 4vw;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
 }
 
@@ -109,7 +127,6 @@ p.alt{
 #card{
     font-family: var(--font01);
     text-align: center;
-    font-size: 4vw;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
 }
 
@@ -130,7 +147,6 @@ hr{
 
 .alt-cont a:hover {
     text-decoration: underline;
-    font-size: 4.2vw;
     transition-duration: 0.5s;
 }
 
