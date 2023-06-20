@@ -31,12 +31,29 @@ ul{
     list-style-type: '-';
 }
 
+@media (min-width: 901px){
+    .text{
+        font-size: 3.3vw;
+    }
+}
+
+@media (max-width: 900px){
+    .text{
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 632px){
+    .text{
+        font-size: 4.5vw;
+    }
+}
+
 .text{
     background-image: linear-gradient(to right, var(--cor04), var(--cor02));
     width: 40vw;
     padding: 5px;
     border-radius: 5px;
-    font-size: 3.5vw;
 
     float: right;
 }

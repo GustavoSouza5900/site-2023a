@@ -75,13 +75,13 @@ ul{
 
 @media (max-width: 900px){
     #iframe_cont{
-        height: 41vh;
+        height: 47vh;
     }
 }
 
 @media (max-width: 632px){
     #iframe_cont{
-        height: 30vh;
+        height: 37vh;
     }
 }
 
