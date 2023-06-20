@@ -17,6 +17,25 @@
 * {
     margin: 0px;
     padding: 0px;
+
+    /* configuração do scroll para FireFox */
+    scrollbar-width: thin;
+    scrollbar-color: var(--background) var(--cor02);
+}
+
+/* cofiguração scroll para outros navegadores */
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+*::-webkit-scrollbar-track {
+background: var(--background);
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: var(--cor02);
+border-radius: 20px;
+border: 3px solid var(--background);
 }
 
 body{
