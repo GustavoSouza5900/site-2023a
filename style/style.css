@@ -112,3 +112,16 @@ iframe{
     background-size: cover;
     border-radius: 20px 150px 20px 150px;
 }
+
+footer{
+    height: 5vw;
+    background-color: var(--cor01);
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer img{
+    height: 90%;
+    padding-inline: 15px;
+}
