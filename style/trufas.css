@@ -23,7 +23,6 @@ body{
     background-color: var(--background);
     color: white;
     font-family: var(--font01);
-    height: 50vh;
 }
 
 ul{
@@ -67,7 +66,6 @@ ul{
     border-radius: 15px;
 
 }
-
 
 #ninho{
     background: white url(../imagens/trufa-ninho.jpg) center center;
