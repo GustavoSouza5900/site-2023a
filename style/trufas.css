@@ -26,12 +26,17 @@ body{
     height: 50vh;
 }
 
+ul{
+    list-style-position: inside;
+    list-style-type: '-';
+}
+
 .text{
     background-image: linear-gradient(to right, var(--cor04), var(--cor02));
     width: 40vw;
     padding: 5px;
     border-radius: 5px;
-    font-size: 4vw;
+    font-size: 3.5vw;
 
     float: right;
 }

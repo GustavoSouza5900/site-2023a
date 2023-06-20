@@ -69,7 +69,7 @@ ul{
 
 #iframe_cont{
     display: inline-block;
-    height: 53vh;
+    height: 63vh;
     width: 100%;
 }
 
@@ -85,6 +85,25 @@ iframe{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
 }
 
+p.alt{
+    text-align: center;
+}
+
+#card{
+    font-family: var(--font01);
+    text-align: center;
+    font-size: 4vw;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
+}
+
+hr{
+    border: 0.2vw solid white;
+    border-radius: 3px;
+    width: 88%;
+    margin: 4px auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.356);
+}
+
 .alt-cont{
     margin: 15px 0px;
     padding: 30px;
@@ -98,8 +117,7 @@ iframe{
     transition-duration: 0.5s;
 }
 
-#head-title{
-    display: inline-block;
+.head-title{
     font-family: var(--font01);
     font-weight: normal;
     font-size: 5vw;
