@@ -67,9 +67,26 @@ ul{
     display: inline-block;
 }
 
+@media (min-width: 901px){
+    #iframe_cont{
+        height: 63vh;
+    }
+}
+
+@media (max-width: 900px){
+    #iframe_cont{
+        height: 41vh;
+    }
+}
+
+@media (max-width: 632px){
+    #iframe_cont{
+        height: 30vh;
+    }
+}
+
 #iframe_cont{
     display: inline-block;
-    height: 63vh;
     width: 100%;
 }
 
