@@ -30,6 +30,10 @@ ul{
     list-style-type: '-';
 }
 
+h2{
+    font-weight: normal;
+}
+
 @media (min-width: 901px){
     .text{
         font-size: 3.3vw;
