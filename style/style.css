@@ -165,7 +165,8 @@ h2{
     font-weight: normal;
     border-radius: 15px;
     padding: 15px;
-    background-image: linear-gradient(to left, var(--cor04), var(--cor02));
+
+    background-image: linear-gradient(to left, #1b98abd5, #1bddf7d5);
 }
 
 #background h2{
