@@ -67,15 +67,16 @@ ul{
     display: inline-block;
 }
 
-@media (min-width: 1337px){
+@media (max-width: 901px){
     #iframe_cont{
         height: 70vh;
     }
+
     .alt, #card{
-        font-size: 3vw;
+        font-size: 3.3vw;
     }
     .alt-cont a:hover{
-        font-size: 3.2vw;
+        font-size: 3.5vw;
     }
 }
 
