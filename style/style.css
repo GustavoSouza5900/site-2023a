@@ -67,7 +67,7 @@ ul{
     display: inline-block;
 }
 
-@media (max-width: 901px){
+@media (min-width: 1337px){
     #iframe_cont{
         height: 70vh;
     }
