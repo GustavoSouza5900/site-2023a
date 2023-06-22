@@ -67,7 +67,19 @@ ul{
     display: inline-block;
 }
 
-@media (min-width: 901px){
+@media (min-width: 1337px){
+    #iframe_cont{
+        height: 70vh;
+    }
+    .alt, #card{
+        font-size: 3vw;
+    }
+    .alt-cont a:hover{
+        font-size: 3.2vw;
+    }
+}
+
+@media (max-width: 901px){
     #iframe_cont{
         height: 63vh;
     }
